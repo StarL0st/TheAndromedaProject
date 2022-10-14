@@ -1,0 +1,12 @@
+
+{
+  "required": true,
+  "package": "com.starl0stgaming.andromedaproject.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+
+  ]
+}

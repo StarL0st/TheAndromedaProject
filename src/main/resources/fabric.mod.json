@@ -1,0 +1,32 @@
+
+{
+  "schemaVersion": 1,
+  "id": "andromedaproject",
+  "version": "0.0.1",
+  "name": "The Andromeda Project",
+  "description": "The Ultimate Space Traveling Mod",
+  "authors": [
+    "StarL0stGaming"
+  ],
+  "license": "LGPL-3.0-or-later",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.starl0stgaming.andromedaproject.TheAndromedaProject"
+    ],
+    "client": [
+      "com.starl0stgaming.andromedaproject.TheAndromedaProjectClient"
+    ],
+    "fabric-datagen": [
+      "com.starl0stgaming.andromedaproject.datagen.DatagenEntrypoint"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.18.2",
+    "java": ">=17"
+  },
+  "mixins": [
+    "andromedaproject.mixins.json"
+  ]
+}
