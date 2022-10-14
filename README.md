@@ -1,2 +1,0 @@
-# TheAndromedaProject
-yes
